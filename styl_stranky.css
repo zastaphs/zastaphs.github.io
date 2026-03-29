@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(210,210,210);
+}
+
+p, ul {
+    font: 10pt arial, sans serif;
+}
+
+p.dolezite {
+	font: 11pt arial, sans serif;
+}
+
+ul.polozka_zoznamu {
+	list-style-type: circle;
+	margin:5px;
+}
+
+ul.zoznam li {
+	margin:5px;
+}
+
+ul.horne_menu {
+	top: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+	width: 100%;
+	position: fixed;
+}
+
+ul.horne_menu li {
+    float: left;
+}
+
+ul.horne_menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ul.horne_menu li a:hover {
+    background-color: purple;
+}
+
